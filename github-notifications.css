@@ -1,0 +1,139 @@
+/*
+  Copyright © 2020 Andrew Powell
+
+  This Source Code Form is subject to the terms of the Mozilla Public
+  License, v. 2.0. If a copy of the MPL was not distributed with this
+  file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+  The above copyright notice and this permission notice shall be
+  included in all copies or substantial portions of this Source Code Form.
+*/
+
+#js-repo-pjax-container {
+  margin: 0 auto;
+  max-width: 1050px;
+  min-width: 1012px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media (min-width : 1280px) {
+
+  .col-xl-2 {
+    width: 240px;
+  }
+}
+
+/* feedback link */
+
+div[data-channel="notification-changed:76371"] { display: none; }
+
+/* inbox and repo icon */
+
+.filter-list img,
+ .filter-list span.mr-2.text-center.d-inline-block {
+  display: none !important;
+}
+
+/* counters */
+
+span.count.text-normal {
+  font-weight: 600 !important;
+}
+
+/* emoji in nav */
+
+#js-repo-pjax-container > div > div.d-none.d-md-flex.col-12.col-sm-12.col-md-3.col-lg-2.col-xl-2.flex-shrink-0.flex-grow-0 > nav > ul.filter-list.js-notification-sidebar-filters > li > a {
+  overflow: hidden;
+  text-indent: -24px;
+}
+
+#js-repo-pjax-container > div > div.d-none.d-md-flex.col-12.col-sm-12.col-md-3.col-lg-2.col-xl-2.flex-shrink-0.flex-grow-0 > nav > ul.filter-list.js-notification-sidebar-filters > li {
+  padding-left: 5px;
+}
+
+#js-repo-pjax-container > div > div.d-none.d-md-flex.col-12.col-sm-12.col-md-3.col-lg-2.col-xl-2.flex-shrink-0.flex-grow-0 > nav > ul.filter-list.js-notification-sidebar-filters > li span.count.text-normal {
+  margin-right: -16px;
+}
+
+/* repositories header */
+
+.js-notification-sidebar-repositories .h6 {
+  display: none;
+}
+
+/* repository list */
+
+.js-notification-sidebar-repositories a {
+  font-size: 12px;
+  margin: 0;
+  padding: 5px 10px;
+}
+
+/* item checkboxes */
+
+.js-notification-bulk-action-check-item {
+  display: none;
+}
+
+/* mark all read button */
+
+.js-notifications-group button.btn.btn-sm {
+  color: transparent;
+  width: 40px;
+}
+
+/* mark all read check */
+
+.js-notifications-group span.text-center.d-inline-block {
+  color: #24292e;
+}
+
+/* select all bar */
+
+#js-repo-pjax-container > div > div.col-12.col-sm-12.col-md-9.col-lg-10.col-xl-10 > div > div:nth-child(3) > div.Box.mx-0.mt-0.border-0 {
+  display: none;
+}
+
+/* little blue dot */
+
+ul > li > div > div.d-flex.flex-row.flex-md-1 > div {
+  display: none !important;
+}
+
+/* repo header */
+
+.Box-header h6 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* notification padding */
+
+.notifications-list-item {
+  padding-left: 14px !important;
+}
+
+/* notification type icon */
+
+.flex-shrink-0.flex-self-start.text-center {
+  padding-right: 4px !important;
+}
+
+/* org/repo/#{issue|pr} */
+
+p.m-0.f6.flex-auto {
+  display: none !important;
+}
+
+/* +number label */
+
+.d-md-flex.d-none.flex-items-center.min-width-0.pl-3.flex-shrink-0 {
+  display: none !important;
+}
+
+/* status action label */
+
+span.Label.flex-self-center.Label--outline.border-0.ml-2.bg-gray-2.flex-shrink-0 {
+  display: none !important;
+}
